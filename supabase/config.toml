@@ -1,0 +1,26 @@
+project_id = "your-supabase-project-ref"
+
+[functions.calculate-distance]
+verify_jwt = false
+
+[functions.delete-user]
+verify_jwt = false
+
+[functions.send-reassignment-email]
+verify_jwt = true
+
+[functions.update-user-role]
+verify_jwt = true
+
+[functions.import-zip-codes]
+verify_jwt = true
+
+[functions.reset-user-password]
+verify_jwt = true
+
+[functions.invite-user]
+verify_jwt = true
+
+[functions.dispatch-chat]
+verify_jwt = false
+
